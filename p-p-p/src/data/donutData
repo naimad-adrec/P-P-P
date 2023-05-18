@@ -1,18 +1,18 @@
-export const data = [
+export const donutData = [
     {
         category: "Savings",
-        savings: 50,
-        percentage: 30
+        savings: 50.45,
+        percentage: "#FFFFFF"
     },
     {
         category: "Food",
-        savings: 40,
-        percentage: 60
+        savings: 40.65,
+        percentage: "#FFFFFF"
     },
     {
         category: "Entertainment",
-        savings: 30,
-        percentage: 90
+        savings: 30.23,
+        percentage: "#FFFFFF"
     }
 
 ];

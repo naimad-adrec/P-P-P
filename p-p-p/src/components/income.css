@@ -1,0 +1,7 @@
+.income {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: '#def2f1';
+
+}

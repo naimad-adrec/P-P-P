@@ -1,15 +1,19 @@
-import React from 'react'
-import {donutData} from '../data/donutData';
-import donut from './donut'
+import React from 'react';
+import { PieChart } from 'react-minimal-pie-chart';
 
 const overview = () => {
   return (
     <div>
     <h1 className="title">Overview</h1>
     <div className="donuts">
-        {data.map((donut, index) => (
-            <donut category={donut.category} savings={donut.savings} percentage={donut.percentage} key={index}/>
-        ))}
+        <div className='savingsChart'>
+            <PieChart
+        data={[
+            { title: 'Savings', value: 40, color: '#E38627' },
+            { title: 'Spendings', value: 60, color: '#C13C37' },
+        ]}
+        />
+        </div>
     </div>
 </div>
   )
