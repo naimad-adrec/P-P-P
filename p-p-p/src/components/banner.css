@@ -1,8 +1,9 @@
 .banner {
     width: 25%;
+    height: 20%;
     background-color: #2b7a78;
     padding: 20px;
-    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     align-self: stretch;
     color: #fff;
@@ -15,5 +16,9 @@
   
   .content {
     justify-self: flex-start;
+  }
+
+  .Text{
+    text-align: left
   }
   
