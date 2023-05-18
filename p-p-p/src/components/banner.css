@@ -1,0 +1,24 @@
+.banner {
+    position: right;
+    top: 8%;
+    right: 0;
+    width: 25%;
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    color: #fff;
+  }
+  
+  .banner h2 {
+    margin-top: 0;
+    padding-right: 20px; 
+    text-align: right;
+  }
+  
+  .banner p {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  

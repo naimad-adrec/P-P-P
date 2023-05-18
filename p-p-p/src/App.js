@@ -1,15 +1,18 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/header';
+import Overview from './components/overview';
+import Income from './components/income';
 import './App.css';
+import Banner from './components/banner'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Header></Header>
         <Routes>
-          <Route path="/overview" element={<h1>Overview</h1>}/>
-          <Route path="/income" element={<h1>Income</h1>}/>
+          <Route path="/overview" element={<Overview></Overview>}/>
+          <Route path="/income" element={<Income></Income>}/>
         </Routes>
       </Router>
     </div>
