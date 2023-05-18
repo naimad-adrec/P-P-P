@@ -1,24 +1,19 @@
 .banner {
-    position: right;
-    top: 8%;
-    right: 0;
     width: 25%;
-    background-color: #000000;
+    background-color: #2b7a78;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-self: stretch;
     color: #fff;
   }
   
-  .banner h2 {
-    margin-top: 0;
-    padding-right: 20px; 
-    text-align: right;
+  .title {
+    justify-self: flex-start;
+
   }
   
-  .banner p {
-    margin-bottom: 0;
-    text-align: right;
+  .content {
+    justify-self: flex-start;
   }
   
