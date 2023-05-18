@@ -1,17 +1,17 @@
 export const data = [
     {
         category: "Savings",
-        spendings: 50,
+        savings: 50,
         percentage: 30
     },
     {
         category: "Food",
-        spendings: 40,
+        savings: 40,
         percentage: 60
     },
     {
         category: "Entertainment",
-        spendings: 30,
+        savings: 30,
         percentage: 90
     }
 
