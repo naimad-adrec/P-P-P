@@ -1,0 +1,13 @@
+.income {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: '#def2f1';
+  }
+
+  .budgetChart {
+    height: 500px;
+    width: 500px;
+    
+
+  }

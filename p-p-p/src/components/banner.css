@@ -1,0 +1,19 @@
+.banner {
+    width: 25%;
+    background-color: #2b7a78;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #fff;
+  }
+  
+  .title {
+    justify-self: flex-start;
+
+  }
+  
+  .content {
+    justify-self: flex-start;
+  }
+  

@@ -1,0 +1,18 @@
+export const donutData = [
+    {
+        category: "Savings",
+        savings: 50.45,
+        percentage: "#FFFFFF"
+    },
+    {
+        category: "Food",
+        savings: 40.65,
+        percentage: "#FFFFFF"
+    },
+    {
+        category: "Entertainment",
+        savings: 30.23,
+        percentage: "#FFFFFF"
+    }
+
+];
