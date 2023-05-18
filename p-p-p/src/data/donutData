@@ -1,0 +1,18 @@
+export const data = [
+    {
+        category: "Savings",
+        spendings: 50,
+        percentage: 30
+    },
+    {
+        category: "Food",
+        spendings: 40,
+        percentage: 60
+    },
+    {
+        category: "Entertainment",
+        spendings: 30,
+        percentage: 90
+    }
+
+];
