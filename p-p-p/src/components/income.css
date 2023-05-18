@@ -5,9 +5,6 @@
     background-color: '#def2f1';
   }
 
-  .budgetChart {
-    height: 500px;
-    width: 500px;
-    
-
+  .contentTitle {
+    text-align: left;
   }
