@@ -1,9 +1,12 @@
 import React, { memo, useMemo }  from 'react'
-import mock_data from "./expenses_data";
+import food_data from "./expenses_data/food_data";
+import housing_data from "./expenses_data/housing_data";
+import pet_data from "./expenses_data/pet_data";
+
 import { useTable } from 'react-table';
 
 const expenses = memo((props) => {
-    const data =  useMemo(() => mock_data, []);
+    const data =  useMemo(() => food_data, []);
     const columns = useMemo(() => [
         {
             Header: "Date", 
@@ -29,8 +32,8 @@ const expenses = memo((props) => {
   return (
     
     <div>
-        <h1 style={{background:'lightblue', borderRadius: '70px', padding:'10px'}}>Food Expenses</h1>
-        <h3 style={{fontWeight:'350', color:'green'}}>$33.05 Remaining</h3>
+        <h1 style={{background:'lightblue', width:'40%', margin:'auto', borderRadius: '70px', padding:'10px', marginTop:'20px'}}>Food Expenses</h1>
+        <h3 style={{fontWeight:'350', color:'green', marginBottom:'30px', marginTop:'5px'}}>$15.83 Remaining</h3>
         <table {...getTableProps()} style={{ width: '100%', paddingLeft: '10%', paddingRight:'10%'}} >
             <thead>
             {headerGroups.map(headerGroup => (
@@ -54,7 +57,7 @@ const expenses = memo((props) => {
             {row.cells.map(cell => {
               return (
                 <td {...cell.getCellProps()}
-                style={{padding: '10px', background: '#d9f2f1', borderRadius: '7px'}}> {cell.render('Cell')}</td>
+                style={{padding: '20px', background: '#d9f2f1', borderRadius: '7px'}}> {cell.render('Cell')}</td>
               )
             })}
           </tr>
