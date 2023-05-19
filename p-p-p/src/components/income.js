@@ -26,12 +26,14 @@ const income = () => {
                                 />
                             </div>
                             <div class="columnleftright">
-                                <div><p class="text">Savings: 40%</p></div>
-                                <div><p class="text">Food: 15%</p></div>
-                                <div><p class="text">Personal: 14%</p></div>
-                                <p class="text"> Transportation: 5%</p>
-                                <p class="text">Cudis Food: 1%</p>
-                                <p class="text">Housing: 25%</p>
+                                <div class='Legend'>
+                                <div><p class="Savingstext">Savings: 40%</p></div>
+                                <div><p class="Foodtext">Food: 15%</p></div>
+                                <div><p class="Personaltext">Personal: 14%</p></div>
+                                <p class="Transportationtext"> Transportation: 5%</p>
+                                <p class="Cudistext">Cudis Food: 1%</p>
+                                <p class="Housingtext">Housing: 25%</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -41,11 +43,21 @@ const income = () => {
                             <h1>Damian Stuff</h1>
                         </div>
                         <div className='rows'>
-                            <h1>Naz Stuff</h1>  
+                            <div className='CategoriesText'>
+                                <h1>Categories</h1>
+                            </div>
+                            <div className='BannerText'>
+                            <p>Savings 40%</p>
+                            <p>Food 15%</p>
+                            <p>Personal 14%</p>
+                            <p>Transportation 5%</p>
+                            <p>Cudis' Food 1%</p>
+                            <p>Housing 25%</p>
                         </div>
                     </div>
                     </div>
             </div>
+        </div>
         </div>
     </>
   )
