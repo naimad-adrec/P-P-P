@@ -12,32 +12,31 @@ import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const progressData = [
-  { name: "Food", percentage: 76, icon: "grocery_fixed.png" },
-  { name: "Housing", percentage: 43, icon: "house_fixed.png" },
-  { name: "Transportation", percentage: 61, icon: "car_fixed.png" },
-  { name: "Pet", percentage: 89, icon: "benji_fixed.png" },
-  { name: "Personal", percentage: 27, icon: "fun_fixed.png" },
-  { name: "Savings", percentage: 100, icon: "dining_fixed.png" }
+  { name: "Food", percentage: 76, money: 180},
+  { name: "Housing", percentage: 43, money: 712.50 },
+  { name: "Transportation", percentage: 61, money: 136.5 },
+  { name: "Cudi's Food", percentage: 0, money: 50},
+  { name: "Personal", percentage: 27, money: 511 },
+  { name: "Savings", percentage: 100, money: 0 }
 ];
 
 const Overview = () => {
   return (
     <div style={{ padding: "40px" }}>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Overview</h1>
-
       <div
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
           gridTemplateRows: "repeat(2, minmax(1fr, 5px))",
-          gap: "20px"
+          gap: "20px",
         }}
       >
-        {progressData.map(({ name, percentage, icon }) => (
+        {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
             <h2 style={{ marginBottom: "10px" }}>{name}</h2>
             <AnimatedProgressProvider
-              valueStart={100}
+              valueStart={percentage}
               valueEnd={percentage}
               duration={2}
               easingFunction={easeQuadInOut}
@@ -47,25 +46,27 @@ const Overview = () => {
                 const roundedValue = Math.round(value);
                 return (
                   <CircularProgressbarWithChildren value={value}>
-                    <img
-                      src={icon}
-                      alt={name}
-                      style={{
-                        width: "45%",
-                        marginTop: "0%",
-                        position: "absolute",
-                        left: "27%",
-                        top: "25%"
-                      }}
-                    />
                     <div
                       style={{
-                        fontSize: 20,
-                        marginTop: "60%",
-                        textAlign: "center"
+                        fontSize: '60',
+                        marginTop: "20%",
+                        textAlign: "center",
+                        height: "80%",
                       }}
                     >
-                      <strong>{roundedValue}%</strong>
+                      <strong
+                      style={{
+                        paddingTop: '100px',
+                        fontSize: 20,
+                        color: '#17252A'
+                      }}>{roundedValue}%</strong>
+                        <div
+                        style={{
+                          fontSize: 20,
+                          color: '#17252A'
+                        }}>
+                        <strong>Money Left: ${money}</strong>
+                      </div>
                     </div>
                   </CircularProgressbarWithChildren>
                 );
