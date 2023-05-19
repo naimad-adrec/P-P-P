@@ -59,6 +59,59 @@
         "description": "Withdrawal from RAJ PROPERTIES",
         "amount": "-$1054.00",
         "balance": "$96.00"
+    },
+    {
+        "date": "May 17",
+        "description": "PETSMART 1292 SUNNYVALE",
+        "amount": "-$56.40",
+        "balance": "-$6.40"
+    },
+    {
+        "date": "May 15",
+        "description": "PAYPAL SPOTIFYUSAI",
+        "amount": "-$4.99",
+        "balance": "$53.59"
+    },
+    {
+        "date": "May 7",
+        "description": "LIDS 9237 SAN FRANCISC CA",
+        "amount": "-$48.87",
+        "balance": "$58.58"
+    },
+    {
+        "date": "May 7",
+        "description": "Withdrawal from VENMO PAYMENT",
+        "amount": "-$22.00",
+        "balance": "$107.45"
+    },
+    {
+        "date": "May 3",
+        "description": "BEAR BASICS INC BERKELEY, CA US",
+        "amount": "-$70.55",
+        "balance": "$129.45"
+    },
+    {
+        "date": "May 13",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$2.00"
+    },
+    {
+        "date": "May 8",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$21.00"
+    },
+    {
+        "date": "May 4",
+        "description": "CLIPPER SYSTEMS MOBILE CONCORD CA",
+        "amount": "-$10.00",
+        "balance": "$40.00"
+    },
+    {
+        "date": "May 1",
+        "description": "Withdrawal to 360 Savings XXXXXXX0000",
+        "amount": "-$11.95"
     }
 
 ]

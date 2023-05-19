@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.Title{
+    font-family: 'Sora', sans-serif;
+    background:#3aafa9;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 70px; 
+    padding: 10px; 
+    margin-top: 20px;
+}

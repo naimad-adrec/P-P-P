@@ -1,8 +1,6 @@
 import React, { memo, useMemo }  from 'react'
 import food_data from "./expenses_data/food_data";
-import housing_data from "./expenses_data/housing_data";
-import pet_data from "./expenses_data/pet_data";
-
+import './expenses.css'
 import { useTable } from 'react-table';
 
 const expenses = memo((props) => {
@@ -31,9 +29,11 @@ const expenses = memo((props) => {
 
   return (
     
-    <div>
-        <h1 style={{background:'lightblue', width:'40%', margin:'auto', borderRadius: '70px', padding:'10px', marginTop:'20px'}}>Food Expenses</h1>
-        <h3 style={{fontWeight:'350', color:'green', marginBottom:'30px', marginTop:'5px'}}>$15.83 Remaining</h3>
+    <div className='BG'>
+        <h1 className='Title'>Expenses</h1>
+        <div> 
+          <h1></h1>
+        </div>
         <table {...getTableProps()} style={{ width: '100%', paddingLeft: '10%', paddingRight:'10%'}} >
             <thead>
             {headerGroups.map(headerGroup => (

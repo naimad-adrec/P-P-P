@@ -38,7 +38,7 @@ const Overview = () => {
       >
         {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
-            <a href='/expenses/foodexpenses' style={{ marginBottom: "20px", textAlign: "center"}}>{name}</a>
+             <h2 style={{ marginBottom: "10px", textAlign: "center" }}>{name}</h2>
             <AnimatedProgressProvider
               valueStart={percentage}
               valueEnd={percentage}
@@ -53,14 +53,14 @@ const Overview = () => {
                     <div
                       style={{
                         fontSize: '60',
-                        marginTop: "20%",
+                        marginTop: "40%",
                         textAlign: "center",
                         height: "80%",
                       }}
                     >
                       <strong
                       style={{
-                        paddingTop: '100px',
+                        paddingTop: '50px',
                         fontSize: 20,
                         color: '#17252A'
                       }}>{roundedValue}%</strong>
