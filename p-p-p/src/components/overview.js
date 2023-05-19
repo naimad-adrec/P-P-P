@@ -22,7 +22,7 @@ const progressData = [
 
 const Overview = () => {
   return (
-    <div style={{ padding: "40px" }}>
+    <div style={{ padding: "40px"}}>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Overview</h1>
       <div
         style={{

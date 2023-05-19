@@ -1,9 +1,11 @@
 .banner {
+    position: relative;
     width: 25%;
     height: 100%;
     background-color: #2b7a78;
     padding: 20px;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     align-self: stretch;
     color: #fff;
