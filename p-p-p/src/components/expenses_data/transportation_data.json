@@ -1,0 +1,21 @@
+[
+    {
+        "date": "May 13",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$2.00"
+    },
+    {
+        "date": "May 8",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$21.00"
+    },
+    {
+        "date": "May 4",
+        "description": "CLIPPER SYSTEMS MOBILE CONCORD CA",
+        "amount": "-$10.00",
+        "balance": "$40.00"
+    }
+
+]
