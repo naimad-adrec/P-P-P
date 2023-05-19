@@ -10,7 +10,7 @@ const income = () => {
             <div>
                     <div className='columnleft'>
                         <div className='rows'>
-                            <h1 className="contentTitle">Income</h1>
+                            <h1 className="contentTitle">Build Your Budget!</h1>
                         </div>
                         <div className='rows'>
                             <div class="columnleftleft">
@@ -27,10 +27,11 @@ const income = () => {
                             </div>
                             <div class="columnleftright">
                                 <div class='Legend'>
-                                <div><p class="Savingstext">Savings: 40%</p></div>
+                                <div><p class="Savingstext">Savings: 40%</p>
+                                </div>
                                 <div><p class="Foodtext">Food: 15%</p></div>
                                 <div><p class="Personaltext">Personal: 14%</p></div>
-                                <p class="Transportationtext"> Transportation: 5%</p>
+                                <p class="Transportationtext">Transport: 5%</p>
                                 <p class="Cudistext">Cudis Food: 1%</p>
                                 <p class="Housingtext">Housing: 25%</p>
                                 </div>
