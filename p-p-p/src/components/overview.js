@@ -17,7 +17,7 @@ const progressData = [
   { name: "Transportation", percentage: 61, money: 136.5 },
   { name: "Cudi's Food", percentage: 0, money: 50},
   { name: "Personal", percentage: 27, money: 511 },
-  { name: "Savings", percentage: 70, money: 600 }
+  { name: "Savings", percentage: 100, money: 0 }
 ];
 
 const Overview = () => {
@@ -29,10 +29,10 @@ const Overview = () => {
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
           gridTemplateRows: "repeat(2, minmax(1fr, 5px))",
-          gap: "20px"
+          gap: "20px",
         }}
       >
-        {progressData.map(({ name, percentage, icon }) => (
+        {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
             <h2 style={{ marginBottom: "10px" }}>{name}</h2>
             <AnimatedProgressProvider
@@ -46,25 +46,27 @@ const Overview = () => {
                 const roundedValue = Math.round(value);
                 return (
                   <CircularProgressbarWithChildren value={value}>
-                    <img
-                      src={icon}
-                      alt={name}
-                      style={{
-                        width: "45%",
-                        marginTop: "0%",
-                        position: "absolute",
-                        left: "27%",
-                        top: "25%"
-                      }}
-                    />
                     <div
                       style={{
-                        fontSize: 20,
-                        marginTop: "60%",
-                        textAlign: "center"
+                        fontSize: '60',
+                        marginTop: "20%",
+                        textAlign: "center",
+                        height: "80%",
                       }}
                     >
-                      <strong>{roundedValue}%</strong>
+                      <strong
+                      style={{
+                        paddingTop: '100px',
+                        fontSize: 20,
+                        color: '#17252A'
+                      }}>{roundedValue}%</strong>
+                        <div
+                        style={{
+                          fontSize: 20,
+                          color: '#17252A'
+                        }}>
+                        <strong>Money Left: ${money}</strong>
+                      </div>
                     </div>
                   </CircularProgressbarWithChildren>
                 );
