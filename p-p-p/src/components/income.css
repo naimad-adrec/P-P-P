@@ -21,6 +21,7 @@
   .columnright {
     float: right;
     width: 30%;
+    justify-content: space-evenly;
   }
 
   .columnleftleft {
@@ -59,6 +60,25 @@
     align-self: stretch;
     color: #fff;
   }
+
+  .bannerAmountText {
+    justify-content: space-evenly;
+    transform: translateX(10px);
+  }
+
+  .bannerIncomeText {
+    justify-content: space-evenly;
+    transform: translateX(25px);
+  }
+
+  .bannerIncomeTitle {
+    justify-content: space-evenly;
+    transform: translateX(15px);
+  }
+
+  .bannerAmountTitle {
+    justify-content: space-evenly;
+  }
   
   .title {
     justify-self: flex-start;
@@ -67,4 +87,16 @@
   
   .content {
     justify-self: flex-start;
+  }
+
+  .square-md {
+    width: 350px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 50px !important;
+    text-align: center;
+    padding: 0px;
+    font-size: 15px;
+    background-color: #17252A;
+    transform: translateX(50px);
   }

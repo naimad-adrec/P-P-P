@@ -1,7 +1,7 @@
 import React from 'react'
 import { PieChart } from 'react-minimal-pie-chart';
 import './income.css'
-import Banner from './banner'
+import { MDBBtn } from "mdb-react-ui-kit";
 
 const income = () => {
   return (
@@ -38,7 +38,25 @@ const income = () => {
                     <div className='columnright'>
                     <div className='banner'>
                         <div className='rows'>
-                            <h1>Damian Stuff</h1>
+                            <div className='rows'>
+                                <div className='columnleft'>
+                                    <div>
+                                        <h1 className='bannerIncomeTitle'>Income Sources</h1>
+                                    </div>
+                                    <div className='rows'><p className='bannerIncomeText'>Unity Developer:</p></div>
+                                    <div className='rows'><p className='bannerIncomeText'>Parents:</p></div>
+                                    <div className='rows'><p className='bannerIncomeText'>BHTS Prize Money:</p></div>
+                                </div>
+                                <div className='columnright'>
+                                    <h1 className='bannerAmountTitle'>Amount</h1>
+                                    <div className='rows'><p className='bannerAmountText'>$4000</p> </div>
+                                    <div className='rows'><p className='bannerAmountText'>$999</p></div>
+                                    <div className='rows'><p className='bannerAmountText'>$1</p></div>
+                                </div>
+                            </div>
+                            <div className='rows'>
+                                <MDBBtn className="square-md">Add Income Source</MDBBtn>
+                            </div>
                         </div>
                         <div className='rows'>
                             <h1>Naz Stuff</h1>  
