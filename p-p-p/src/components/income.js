@@ -63,10 +63,10 @@ const income = () => {
                         </div>
                         <div className='rows'>
                             <div className='rows'>
-                                <h2 className='bannerIncomeTitle'>Categories</h2>
-                            </div>
-                            <div className='rows'>
                             <div className='columnleft'>
+                                    <div className='rows'>
+                                        <h2 className='bannerIncomeTitle'>Categories</h2>
+                                    </div>
                                     <div className='rows'><p className='bannerIncomeText'>Savings:</p></div>
                                     <div className='rows'><p className='bannerIncomeText'>Food:</p></div>
                                     <div className='rows'><p className='bannerIncomeText'>Personal:</p></div>
@@ -75,7 +75,7 @@ const income = () => {
                                     <div className='rows'><p className='bannerIncomeText'>Housing:</p></div>
                                 </div>
                                 <div className='columnright'>
-                                    <h2 className='bannerAmountTitle'></h2>
+                                    <h2 className='bannerAmountTitle'>Partitions</h2>
                                     <div className='rows'><p className='bannerIncomeText'>40%</p></div>
                                     <div className='rows'><p className='bannerIncomeText'>15%</p></div>
                                     <div className='rows'><p className='bannerIncomeText'>14%</p></div>

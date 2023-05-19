@@ -12,8 +12,8 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          <Route path="/overview" element={<Overview></Overview>}/>
           <Route path="/income" element={<Income></Income>}/>
+          <Route path="/overview" element={<Overview></Overview>}/>
           <Route path="/expenses" element={<Expenses></Expenses>}/>
         </Routes>
       </Router>
