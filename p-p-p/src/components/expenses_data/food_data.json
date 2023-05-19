@@ -1,0 +1,45 @@
+[
+    {
+        "date": "May 17",
+        "description": "BURGER KING 11964 Q07 RICHMOND CA",
+        "amount": "-$17.22",
+        "balance": "$15.83"
+    },
+    {
+        "date": "May 15",
+        "description": "TST KABAB CURRYS SANTA CLARA CA",
+        "amount": "-$51.94",
+        "balance": "$33.05"
+    },
+    {
+        "date": "May 14",
+        "description": "SNACK LITTLE GEM SAN FRANCISC CA",
+        "amount": "-$9.24",
+        "balance": "$84.99"
+    },
+    {
+        "date": "May 13",
+        "description": "SNACK TACOS SINAL SAN FRANCISC CA",
+        "amount": "-$14.43",
+        "balance": "$94.23"
+    },
+    {
+        "date": "May 7",
+        "description": "SNACK KINGPIN DON FRANCISC CA",
+        "amount": "-$14.98",
+        "balance": "$108.66"
+    },
+    {
+        "date": "May 3",
+        "description": "MCDONALD S 43722 BERKELEY CA",
+        "amount": "-$14.41",
+        "balance": "$123.64"
+    },
+    {
+        "date": "May 1",
+        "description": "IN N OUT BURGER 130 SUNNNYVALE CA",
+        "amount": "-$11.95",
+        "balance": "$138.05"
+    }
+
+]
