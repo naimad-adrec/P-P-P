@@ -1,12 +1,9 @@
 import React, { memo, useMemo }  from 'react'
-import food_data from "./expenses_data/food_data";
-import housing_data from "./expenses_data/housing_data";
 import pet_data from "./expenses_data/pet_data";
-
 import { useTable } from 'react-table';
 
 const expenses = memo((props) => {
-    const data =  useMemo(() => food_data, []);
+    const data =  useMemo(() => pet_data, []);
     const columns = useMemo(() => [
         {
             Header: "Date", 

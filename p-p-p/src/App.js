@@ -2,8 +2,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/header';
 import Overview from './components/overview';
 import Income from './components/income';
-import Expenses from './components/expenses';
+import Expenses from './components/foodexpenses';
 import './App.css';
+
 
 function App() {
   return (

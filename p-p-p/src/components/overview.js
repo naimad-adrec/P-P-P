@@ -1,5 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
+import food_data from "./expenses_data/food_data";
+import housing_data from "./expenses_data/housing_data";
+import pet_data from "./expenses_data/pet_data";
+import {Link} from 'react-router-dom';
 
 import {
   CircularProgressbar,
@@ -15,8 +19,8 @@ const progressData = [
   { name: "Food", percentage: 76, money: 180},
   { name: "Housing", percentage: 43, money: 712.50 },
   { name: "Transportation", percentage: 61, money: 136.5 },
-  { name: "Cudi's Food", percentage: 0, money: 50},
-  { name: "Personal", percentage: 27, money: 511 },
+  { name: "Cudi's Food", percentage: 0, money: 50 },
+  { name: "Personal", percentage: 27, money: 511  },
   { name: "Savings", percentage: 100, money: 0 }
 ];
 
@@ -34,7 +38,7 @@ const Overview = () => {
       >
         {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
-            <h2 style={{ marginBottom: "20px", textAlign: "center"}}>{name}</h2>
+            <a href='/expenses/foodexpenses' style={{ marginBottom: "20px", textAlign: "center"}}>{name}</a>
             <AnimatedProgressProvider
               valueStart={percentage}
               valueEnd={percentage}
