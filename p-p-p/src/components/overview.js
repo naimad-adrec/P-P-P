@@ -12,11 +12,11 @@ import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const progressData = [
-  { name: "Food", percentage: 76, money: 300},
-  { name: "Housing", percentage: 43, money: "house_fixed.png" },
-  { name: "Transportation", percentage: 61, money: "car_fixed.png" },
-  { name: "Pet", percentage: 89, money: "benji_fixed.png" },
-  { name: "Personal", percentage: 27, money: "fun_fixed.png" },
+  { name: "Food", percentage: 76, money: 180},
+  { name: "Housing", percentage: 43, money: 712.50 },
+  { name: "Transportation", percentage: 61, money: 136.5 },
+  { name: "Cudi's Food", percentage: 0, money: 50},
+  { name: "Personal", percentage: 27, money: 511 },
   { name: "Savings", percentage: 70, money: 600 }
 ];
 
@@ -24,7 +24,6 @@ const Overview = () => {
   return (
     <div style={{ padding: "40px" }}>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Overview</h1>
-
       <div
         style={{
           display: "grid",
