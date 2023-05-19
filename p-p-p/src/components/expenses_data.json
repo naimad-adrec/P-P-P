@@ -1,0 +1,39 @@
+[
+    {
+        "date": "May 13",
+        "description": "TST KABAB CURRYS SANTA CLARA CA",
+        "amount": "-$51.94",
+        "balance": "$33.05"
+    },
+    {
+        "date": "May 11",
+        "description": "SNACK LITTLE GEM SAN FRANCISC CA",
+        "amount": "-$9.24",
+        "balance": "$84.99"
+    },
+    {
+        "date": "May 17",
+        "description": "SNACK TACOS SINAL SAN FRANCISC CA",
+        "amount": "-$14.43",
+        "balance": "$94.23"
+    },
+    {
+        "date": "May 18",
+        "description": "SNACK KINGPIN DON FRANCISC CA",
+        "amount": "-$14.98",
+        "balance": "$108.66"
+    },
+    {
+        "date": "May 19",
+        "description": "MCDONALD S 43722 BERKELEY CA",
+        "amount": "-$14.41",
+        "balance": "$123.64"
+    },
+    {
+        "date": "May 17",
+        "description": "IN N OUT BURGER 130 SUNNNYVALE CA",
+        "amount": "-$11.95",
+        "balance": "$138.05"
+    }
+
+]
