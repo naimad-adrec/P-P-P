@@ -34,7 +34,7 @@ const Overview = () => {
       >
         {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
-            <h2 style={{ marginBottom: "10px" }}>{name}</h2>
+            <h2 style={{ marginBottom: "20px", textAlign: "center"}}>{name}</h2>
             <AnimatedProgressProvider
               valueStart={percentage}
               valueEnd={percentage}
