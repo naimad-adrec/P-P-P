@@ -12,19 +12,19 @@ class AnimatedProgressProvider extends React.Component {
     valueStart: 0
   };
 
-  componentDidMount() {
-    if (this.props.repeat) {
-      this.interval = window.setInterval(() => {
-        this.setState({
-          isAnimated: !this.state.isAnimated
-        });
-      }, this.props.duration * 1000);
-    } else {
-      this.setState({
-        isAnimated: !this.state.isAnimated
-      });
-    }
-  }
+  // componentDidMount() {
+  //   if (this.props.repeat) {
+  //     this.interval = window.setInterval(() => {
+  //       this.setState({
+  //         isAnimated: !this.state.isAnimated
+  //       });
+  //     }, this.props.duration * 1000);
+  //   } else {
+  //     this.setState({
+  //       isAnimated: !this.state.isAnimated
+  //     });
+  //   }
+  // }
 
   componentWillUnmount() {
     window.clearInterval(this.interval);

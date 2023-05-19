@@ -12,12 +12,12 @@ import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const progressData = [
-  { name: "Food", percentage: 76, icon: "grocery_fixed.png" },
-  { name: "Housing", percentage: 43, icon: "house_fixed.png" },
-  { name: "Transportation", percentage: 61, icon: "car_fixed.png" },
-  { name: "Pet", percentage: 89, icon: "benji_fixed.png" },
-  { name: "Personal", percentage: 27, icon: "fun_fixed.png" },
-  { name: "Savings", percentage: 100, icon: "dining_fixed.png" }
+  { name: "Food", percentage: 76, money: 300},
+  { name: "Housing", percentage: 43, money: "house_fixed.png" },
+  { name: "Transportation", percentage: 61, money: "car_fixed.png" },
+  { name: "Pet", percentage: 89, money: "benji_fixed.png" },
+  { name: "Personal", percentage: 27, money: "fun_fixed.png" },
+  { name: "Savings", percentage: 70, money: 600 }
 ];
 
 const Overview = () => {
@@ -37,7 +37,7 @@ const Overview = () => {
           <div key={name}>
             <h2 style={{ marginBottom: "10px" }}>{name}</h2>
             <AnimatedProgressProvider
-              valueStart={100}
+              valueStart={percentage}
               valueEnd={percentage}
               duration={2}
               easingFunction={easeQuadInOut}
