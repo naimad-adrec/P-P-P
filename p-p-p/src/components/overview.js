@@ -1,5 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
+import food_data from "./expenses_data/food_data";
+import housing_data from "./expenses_data/housing_data";
+import pet_data from "./expenses_data/pet_data";
+import {Link} from 'react-router-dom';
 
 import {
   CircularProgressbar,
@@ -15,14 +19,14 @@ const progressData = [
   { name: "Food", percentage: 76, money: 180},
   { name: "Housing", percentage: 43, money: 712.50 },
   { name: "Transportation", percentage: 61, money: 136.5 },
-  { name: "Cudi's Food", percentage: 0, money: 50},
-  { name: "Personal", percentage: 27, money: 511 },
+  { name: "Cudi's Food", percentage: 0, money: 50 },
+  { name: "Personal", percentage: 27, money: 511  },
   { name: "Savings", percentage: 100, money: 0 }
 ];
 
 const Overview = () => {
   return (
-    <div style={{ padding: "40px" }}>
+    <div style={{ padding: "40px"}}>
       <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Overview</h1>
       <div
         style={{
@@ -34,7 +38,7 @@ const Overview = () => {
       >
         {progressData.map(({ name, percentage, money }) => (
           <div key={name}>
-            <h2 style={{ marginBottom: "10px" }}>{name}</h2>
+             <h2 style={{ marginBottom: "10px", textAlign: "center" }}>{name}</h2>
             <AnimatedProgressProvider
               valueStart={percentage}
               valueEnd={percentage}
@@ -49,14 +53,14 @@ const Overview = () => {
                     <div
                       style={{
                         fontSize: '60',
-                        marginTop: "20%",
+                        marginTop: "40%",
                         textAlign: "center",
                         height: "80%",
                       }}
                     >
                       <strong
                       style={{
-                        paddingTop: '100px',
+                        paddingTop: '50px',
                         fontSize: 20,
                         color: '#17252A'
                       }}>{roundedValue}%</strong>

@@ -1,0 +1,117 @@
+[
+    {
+        "date": "May 17",
+        "description": "BURGER KING 11964 Q07 RICHMOND CA",
+        "amount": "-$17.22",
+        "balance": "$15.83"
+    },
+    {
+        "date": "May 15",
+        "description": "TST KABAB CURRYS SANTA CLARA CA",
+        "amount": "-$51.94",
+        "balance": "$33.05"
+    },
+    {
+        "date": "May 14",
+        "description": "SNACK LITTLE GEM SAN FRANCISC CA",
+        "amount": "-$9.24",
+        "balance": "$84.99"
+    },
+    {
+        "date": "May 13",
+        "description": "SNACK TACOS SINAL SAN FRANCISC CA",
+        "amount": "-$14.43",
+        "balance": "$94.23"
+    },
+    {
+        "date": "May 7",
+        "description": "SNACK KINGPIN DON FRANCISC CA",
+        "amount": "-$14.98",
+        "balance": "$108.66"
+    },
+    {
+        "date": "May 3",
+        "description": "MCDONALD S 43722 BERKELEY CA",
+        "amount": "-$14.41",
+        "balance": "$123.64"
+    },
+    {
+        "date": "May 1",
+        "description": "IN N OUT BURGER 130 SUNNNYVALE CA",
+        "amount": "-$11.95",
+        "balance": "$138.05"
+
+    },
+    {
+        "date": "May 1",
+        "description": "SONIC INTERNET",
+        "amount": "-$20.00",
+        "balance": "$52.51"
+    },
+    {
+        "date": "May 1",
+        "description": "PG&E",
+        "amount": "-$23.49",
+        "balance": "$72.51"
+    },
+    {
+        "date": "May 1",
+        "description": "Withdrawal from RAJ PROPERTIES",
+        "amount": "-$1054.00",
+        "balance": "$96.00"
+    },
+    {
+        "date": "May 17",
+        "description": "PETSMART 1292 SUNNYVALE",
+        "amount": "-$56.40",
+        "balance": "-$6.40"
+    },
+    {
+        "date": "May 15",
+        "description": "PAYPAL SPOTIFYUSAI",
+        "amount": "-$4.99",
+        "balance": "$53.59"
+    },
+    {
+        "date": "May 7",
+        "description": "LIDS 9237 SAN FRANCISC CA",
+        "amount": "-$48.87",
+        "balance": "$58.58"
+    },
+    {
+        "date": "May 7",
+        "description": "Withdrawal from VENMO PAYMENT",
+        "amount": "-$22.00",
+        "balance": "$107.45"
+    },
+    {
+        "date": "May 3",
+        "description": "BEAR BASICS INC BERKELEY, CA US",
+        "amount": "-$70.55",
+        "balance": "$129.45"
+    },
+    {
+        "date": "May 13",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$2.00"
+    },
+    {
+        "date": "May 8",
+        "description": "AMTRAK COM WASHINGTON DC",
+        "amount": "-$19.00",
+        "balance": "$21.00"
+    },
+    {
+        "date": "May 4",
+        "description": "CLIPPER SYSTEMS MOBILE CONCORD CA",
+        "amount": "-$10.00",
+        "balance": "$40.00"
+    },
+    {
+        "date": "May 1",
+        "description": "Withdrawal to 360 Savings XXXXXXX0000",
+        "amount": "-$11.95"
+    }
+
+]
