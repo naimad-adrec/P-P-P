@@ -40,6 +40,25 @@
         "description": "IN N OUT BURGER 130 SUNNNYVALE CA",
         "amount": "-$11.95",
         "balance": "$138.05"
+
+    },
+    {
+        "date": "May 1",
+        "description": "SONIC INTERNET",
+        "amount": "-$20.00",
+        "balance": "$52.51"
+    },
+    {
+        "date": "May 1",
+        "description": "PG&E",
+        "amount": "-$23.49",
+        "balance": "$72.51"
+    },
+    {
+        "date": "May 1",
+        "description": "Withdrawal from RAJ PROPERTIES",
+        "amount": "-$1054.00",
+        "balance": "$96.00"
     }
 
 ]
