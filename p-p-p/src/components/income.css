@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
 .income {
+    font-family: 'Sora', sans-serif;
     position:relative;
     top:0;
     left: 0;
@@ -89,6 +94,40 @@
     justify-self: flex-start;
   }
 
+ .BannerText {
+  transform: translateX(25px)
+ }
+
+ .Legend {
+  background-color: #415e4a;
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+ }
+
+ .Savingstext {
+  color: #bee7e8;
+ }
+
+ .Foodtext{
+  color: #a0d2db;
+ }
+
+ .Personaltext{
+  color: #7d8cc4;
+ }
+
+ .Transportationtext{
+  color: #726d88;
+ }
+
+ .Cudistext{
+  color: #665780;
+ }
+
+ .Housingtext{
+  color: #594157;
+ }
   .square-md {
     width: 350px !important;
     max-width: 100% !important;
