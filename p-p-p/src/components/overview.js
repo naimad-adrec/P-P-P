@@ -12,12 +12,12 @@ import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const progressData = [
-  { name: "Groceries", percentage: 76, icon: "grocery_fixed.png" },
+  { name: "Food", percentage: 76, icon: "grocery_fixed.png" },
   { name: "Housing", percentage: 43, icon: "house_fixed.png" },
-  { name: "Auto", percentage: 61, icon: "car_fixed.png" },
+  { name: "Transportation", percentage: 61, icon: "car_fixed.png" },
   { name: "Pet", percentage: 89, icon: "benji_fixed.png" },
-  { name: "Fun", percentage: 27, icon: "fun_fixed.png" },
-  { name: "Dining Out", percentage: 55, icon: "dining_fixed.png" }
+  { name: "Personal", percentage: 27, icon: "fun_fixed.png" },
+  { name: "Savings", percentage: 100, icon: "dining_fixed.png" }
 ];
 
 const Overview = () => {
