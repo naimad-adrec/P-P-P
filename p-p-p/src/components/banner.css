@@ -1,4 +1,5 @@
 .banner {
+    position: relative;
     width: 25%;
     height: 20%;
     background-color: #2b7a78;
@@ -9,7 +10,7 @@
     color: #fff;
   }
   
-  .title {
+  #title {
     justify-self: flex-start;
 
   }

@@ -1,13 +1,70 @@
 .income {
-    display: flex;
-    align-items: center;
+    position:relative;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
     justify-content: space-evenly;
     background-color: '#def2f1';
   }
 
-  .budgetChart {
-    height: 500px;
-    width: 500px;
-    
+  .contentTitle {
+    text-align: left;
+    padding-left: 25px;
+  }
 
+  .columnleft {
+    float: left;
+    width: 70%;
+  }
+
+  .columnright {
+    float: right;
+    width: 30%;
+  }
+
+  .columnleftleft {
+    float: left;
+    width: 70%;
+    scale: 75%;
+  }
+
+  .columnleftright {
+    float: right;
+    width: 30%;
+    align-items: center;
+    transform: translateY(200px);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text {
+    text-align: left;
+    padding-left: 10%;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-color: #2b7a78;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: stretch;
+    color: #fff;
+  }
+  
+  .title {
+    justify-self: flex-start;
+
+  }
+  
+  .content {
+    justify-self: flex-start;
   }

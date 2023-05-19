@@ -1,26 +1,123 @@
 .header {
+    height: 60px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100px;
-    background-color: #3aafa9;
-    color: white;
-  }
-  
-  .logo {
-    font-family: 'Belleza', sans-serif;
-  }
-  
-  .links {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background: #3aafa9;
   }
   
-  a {
-    margin: 0 20px;
+  .header > .head-logo {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px;
+    color: #ffffff;
+  }
+  
+  .header > .head-items > a {
+    color: #ffffff;
+    font-size: 16px;
     text-decoration: none;
-    color: white;
-    font-weight: 600;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
+  }
+  
+  .header > .head-items > a:hover {
+    opacity: 1;
+  }
+  
+  .header > .head-items > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s;
+  }
+  
+  .header > .head-items > a:hover::before {
+    width: 100%;
+  }
+  
+  .header > .head-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 700px) {
+    .header > .head-items {
+      position: absolute;
+      top: 60px;
+      display: flex;
+      flex-direction: column;
+      background: #3aafa9;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-100%);
+      transition: all .45s;
+    }
+  
+    .header > .head-items > a::before {
+        background: transparent;
+    }
+  
+    .header > .head-items.open {
+        transform: translateX(0);
+    }
+  
+    .header > .head-toggle {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .head-toggle > .bar {
+      position: relative;
+      width: 32px;
+      height: 2px;
+      background: #ffffff;
+      transition: all 0.45s ease-in-out;
+    }
+  
+    .head-toggle > .bar::before,
+    .head-toggle > .bar::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background: #ffffff;
+      border-radius: 2px;
+      transition: all 0.45s ease-in-out;
+    }
+  
+    .head-toggle > .bar::before {
+      width: 25px;
+      transform: translateY(-8px);
+      right: 0;
+    }
+  
+    .head-toggle > .bar::after {
+      width: 32px;
+      transform: translateY(8px);
+    }
+  
+    .head-toggle.open > .bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+  
+    .head-toggle.open > .bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+  
+    .head-toggle.open > .bar::after {
+      transform: rotate(-45deg) translate(26px, 26px);
+    }
+  
+  
   }
