@@ -2,6 +2,7 @@ import React from 'react'
 const banner = () => {
   return (
     <div className='banner'>
+        <Slider>HELLO</Slider>
         <h2 id='title'>Rectangle banner</h2>
         <p className='content'>This is a rectangle banner.</p>
         <p className='Income Sources'>Income Sources</p>
