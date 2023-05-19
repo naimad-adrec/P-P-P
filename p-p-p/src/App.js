@@ -3,11 +3,11 @@ import Header from './components/header';
 import Overview from './components/overview';
 import Income from './components/income';
 import './App.css';
-import Banner from './components/banner'
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <div className="App">
       <Router>
         <Header></Header>
         <Routes>
@@ -16,6 +16,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </>
   );
 }
 

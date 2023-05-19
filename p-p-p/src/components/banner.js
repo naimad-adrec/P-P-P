@@ -3,8 +3,8 @@ import './banner.css'
 const banner = () => {
   return (
     <div className='banner'>
-    <h2>Rectangle banner</h2>
-    <p>This is a rectangle banner.</p>
+        <h2 id='title'>Rectangle banner</h2>
+        <p className='content'>This is a rectangle banner.</p>
     </div>
   )
 }
